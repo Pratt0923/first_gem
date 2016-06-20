@@ -1,5 +1,7 @@
 require "first_gem_creation/version"
 
 class FirstGemCreation
-  # Your code goes here...
+  def number_randomizer
+    rand(-1000..1000)
+  end
 end
